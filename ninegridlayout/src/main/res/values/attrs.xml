@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NineGridLayout">
+        <attr name="ngl_single_width_percent" format="float"/>
+        <attr name="ngl_single_height_ration" format="float"/>
+        <attr name="ngl_max_child_count" format="integer"/>
+        <attr name="ngl_space" format="dimension"/>
+        <attr name="ngl_mode" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="grid" value="1"/>
+        </attr>
+        <attr name="ngl_four_width_percent" format="fraction"/>
+    </declare-styleable>
+</resources>
