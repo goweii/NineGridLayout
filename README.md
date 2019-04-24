@@ -17,6 +17,8 @@ Add it in your root build.gradle at the end of repositories:
 	}
 Step 2. Add the dependency
 
+  从1.0.1版本开始，版本号前不加v，引用时需要注意。
+
 	dependencies {
-	        implementation 'com.github.goweii:NineGridLayout:v1.0.0'
+	        implementation 'com.github.goweii:NineGridLayout:1.0.1'
 	}
